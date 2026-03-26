@@ -1,12 +1,15 @@
 package HW2;
 
-public class hw202 {
+public class HW203 {
     public static void main(String[] args) {
     	int sum = 1;
-    	for(int i = 1; i <= 10;i++) {
-    		sum  *= i;
+    	int i = 1;
+    	while(i <= 10) {
+    		sum *= i;
+    		i++;
     	}
     	
     	System.out.println(sum);
     }
+
 }
