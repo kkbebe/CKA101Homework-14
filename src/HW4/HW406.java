@@ -24,8 +24,7 @@ public class HW406 {
 		
 		
 		for(int i = 1; i < score.length; i++) {
-			smartAssCount[smartAss] += 1;
-			max = 0;
+			
 			for(int j = 1; j < score[i].length; j++) {
 				int cValue = score[i][j];
 				
@@ -33,9 +32,20 @@ public class HW406 {
 					max = cValue; 
 					smartAss = j;
 				}
-				
 			}
+			smartAssCount[smartAss] += 1;
+			max = 0;
+			
+			
+			
+			
+			
+			
+			
+			
 		}
+		
+		
 		smartAssCount[0] = -1;
 		// 索引值[0] 為 -1 空號,            索引值[1] 為 1號座號
 		

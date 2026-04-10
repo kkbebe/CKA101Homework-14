@@ -1,8 +1,6 @@
 package HW4;
 
 import java.util.Scanner;
-import java.util.Arrays;
-
 
 public class HW405 {
 	public static void main(String[] args) {
